@@ -1,10 +1,9 @@
 {
   "name": "pdftk-bin",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Bin Wrapper for pdftk to easy installation on AWS Amazon Linux.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node lib/install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,10 +13,6 @@
   "keywords": [
     "pdftk",
     "install"
-  ],
-  "files": [
-    "index.js",
-    "lib"
   ],
   "author": "dan@hollenbecks.com",
   "license": "MIT",
