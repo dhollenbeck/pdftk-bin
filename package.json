@@ -1,6 +1,6 @@
 {
   "name": "pdftk-bin",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Bin Wrapper for pdftk to easy installation on AWS Amazon Linux.",
   "main": "index.js",
   "scripts": {
