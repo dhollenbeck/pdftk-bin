@@ -15,6 +15,10 @@
     "pdftk",
     "install"
   ],
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "author": "dan@hollenbecks.com",
   "license": "MIT",
   "bugs": {
