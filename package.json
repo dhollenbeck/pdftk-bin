@@ -1,0 +1,27 @@
+{
+  "name": "pdftk-bin",
+  "version": "1.0.0",
+  "description": "Bin Wrapper for pdftk to easy installation on AWS Amazon Linux.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node lib/install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhollenbeck/pdftk-bin.git"
+  },
+  "keywords": [
+    "pdftk",
+    "install"
+  ],
+  "author": "dan@hollenbecks.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhollenbeck/pdftk-bin/issues"
+  },
+  "homepage": "https://github.com/dhollenbeck/pdftk-bin#readme",
+  "dependencies": {
+    "bin-wrapper": "^3.0.2"
+  }
+}
